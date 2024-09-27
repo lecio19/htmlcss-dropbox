@@ -4,8 +4,45 @@
    padding: 0%;
 }
 
-nav{
-    height: 81px;
+.container-full {
+    max-width: 100%;
+    margin: auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row-reverse > * {
+	flex-direction: row-reverse;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.col-25{
+    width: 25%;
+}
+
+
+/*.col-25 > * {
+    flex-direction: row;
     border: 5px;
+    border-color: blue;
+    justify-content: space-between; 
+    align-items: baseline; 
+    font-size: 14px;
+    padding: 12px 16px;
+}*/
+
+.logo img {
+	height: 30px;
+	display: block;
 }
 
